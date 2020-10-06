@@ -54,7 +54,6 @@ int main()
         for(int i = 0; i < active; i++)
         {
         getline(cin, input);
-        //cout << input << '\n';
         tokenize_string_to_i(input, ' ', VertVector);
 
         for(auto &binary: VertVector)
@@ -66,8 +65,6 @@ int main()
             }
             
             j = 0;
-            
-            //cout << VertVector.size() << '\n';
         
             VertVector.clear();
         }
@@ -83,7 +80,7 @@ int main()
         getline(cin, input);
     
         active = stoi(input);
-
+        
         if(active != -1){
             cout << '\n';
         }
