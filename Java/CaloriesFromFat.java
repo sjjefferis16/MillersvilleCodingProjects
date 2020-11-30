@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 import java.text.*;
 import java.lang.Math;
 
-public class Main
+public class CaloriesFromFat
 {
     public static void main(String[] args) throws IOException  {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
